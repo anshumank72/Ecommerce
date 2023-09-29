@@ -1,0 +1,35 @@
+.footer {
+  background-color: #f5f5f5;
+  padding: 60px 120px;
+}
+.footerLink {
+  text-decoration: none !important;
+}
+ul {
+  list-style: none;
+  padding: 0 !important;
+  margin: 0;
+}
+li {
+  font-size: 14px;
+}
+li:not(:last-child) {
+  padding-bottom: 5px;
+}
+.linkCont {
+  margin-left: auto;
+}
+.footerBottom {
+  /* padding: 60px; */
+}
+.indLinkCont:not(:first-child) {
+  padding-left: 60px;
+}
+.indLinkCont h5 {
+  font-size: 16px;
+}
+@media (max-width: 991px) {
+  .footerImage {
+    display: none;
+  }
+}
