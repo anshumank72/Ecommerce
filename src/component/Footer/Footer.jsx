@@ -17,7 +17,7 @@ const Footer = () => {
         }
       >
         <div className={`${style.footerImage}`}>
-          <img src="/logo192.png" />
+          <img src="/logo192.png" alt="" />
         </div>
         <div
           className={
